@@ -8,10 +8,10 @@ public class Commands
 
 
 private static Room[][][] map = new Room[18][13][7];
-private static int currentRoomY = 2;
-private static int currentRoomX = 12;
-private static int currentRoomZ = 6;
-private static Room currentRoom = map[2][12][1]; // start at 6 6 3
+private static int currentRoomY = 6;
+private static int currentRoomX = 6;
+private static int currentRoomZ = 3;
+private static Room currentRoom = map[6][6][3]; // start at 6 6 3
 private static ArrayList<Enemy> enemies = new ArrayList<Enemy>();
 private static Player player;
 private static ArrayList<Item> roomInventory = new ArrayList<Item>();
